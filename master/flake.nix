@@ -11,6 +11,7 @@
   inputs.src-keystone-master.ref   = "refs/heads/master";
   inputs.src-keystone-master.owner = "6A";
   inputs.src-keystone-master.repo  = "Keystone.nim";
+  inputs.src-keystone-master.dir   = "";
   inputs.src-keystone-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
